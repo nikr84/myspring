@@ -1,0 +1,768 @@
+2021-12-26 11:22:00,056 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 10120 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:22:00,088 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:22:00,089 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:22:03,126 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:22:03,146 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:22:03,148 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:22:03,148 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:22:03,612 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:22:03,638 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:22:03,638 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3246 ms
+2021-12-26 11:22:03,750 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@795f8317
+2021-12-26 11:22:04,717 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:22:04,799 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:22:04,819 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.881 seconds (JVM running for 6.779)
+2021-12-26 11:22:04,842 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:22:04,859 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4792f119
+2021-12-26 11:22:04,870 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:22:04,870 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:22:04,872 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:22:14,673 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:22:14,674 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:22:14,676 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 11:22:16,276 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [237] milliseconds.
+2021-12-26 11:23:14,803 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 117996 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:23:14,809 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:23:14,809 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:23:17,673 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:23:17,697 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:23:17,699 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:23:17,700 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:23:18,214 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:23:18,237 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:23:18,237 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3278 ms
+2021-12-26 11:23:18,374 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@3e7b65d7
+2021-12-26 11:23:19,654 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:23:19,784 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:23:19,813 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.259 seconds (JVM running for 7.162)
+2021-12-26 11:23:19,819 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:23:19,830 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@9b47400
+2021-12-26 11:23:19,832 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:23:19,833 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:23:19,834 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:23:21,643 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:23:21,644 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:23:21,646 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 11:23:22,874 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [196] milliseconds.
+2021-12-26 11:25:40,369 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 98048 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:25:40,375 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:25:40,375 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:25:43,619 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:25:43,648 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:25:43,649 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:25:43,650 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:25:44,181 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:25:44,203 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:25:44,204 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3706 ms
+2021-12-26 11:25:44,334 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@97a145b
+2021-12-26 11:25:45,428 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:25:45,511 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:25:45,530 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.374 seconds (JVM running for 7.469)
+2021-12-26 11:25:45,537 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:25:45,549 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@23ca36d
+2021-12-26 11:25:45,551 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:25:45,552 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:25:45,553 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:25:49,397 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:25:49,399 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:25:49,402 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 11:25:50,593 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+2021-12-26 11:42:55,593 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 109788 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:42:55,599 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:42:55,600 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:42:59,321 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:42:59,344 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:42:59,345 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:42:59,346 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:43:00,001 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:43:00,022 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:43:00,023 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4304 ms
+2021-12-26 11:43:00,200 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4086d8fb
+2021-12-26 11:43:01,290 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:43:01,345 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:43:01,369 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.906 seconds (JVM running for 7.867)
+2021-12-26 11:43:01,376 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:43:01,390 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@1e12a5a6
+2021-12-26 11:43:01,392 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:43:01,393 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:43:01,394 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:43:01,860 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:43:01,861 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:43:01,863 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 11:43:03,090 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [189] milliseconds.
+2021-12-26 11:44:15,244 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 376 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:44:15,254 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:44:15,255 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:44:19,350 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:44:19,391 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:44:19,396 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:44:19,398 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:44:20,504 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:44:20,535 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:44:20,536 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 5086 ms
+2021-12-26 11:44:20,717 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@210d2a6c
+2021-12-26 11:44:21,886 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:44:22,006 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:44:22,027 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 8.245 seconds (JVM running for 9.374)
+2021-12-26 11:44:22,034 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:44:22,056 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@7bee8621
+2021-12-26 11:44:22,059 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:44:22,060 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:44:22,061 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:44:30,266 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:44:30,268 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:44:30,270 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 11:44:31,705 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [247] milliseconds.
+2021-12-26 11:49:48,143 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 39064 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:49:48,149 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:49:48,150 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:49:51,300 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:49:51,329 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:49:51,331 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:49:51,331 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:49:51,809 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:49:51,833 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:49:51,835 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3424 ms
+2021-12-26 11:49:51,969 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@2e3572e8
+2021-12-26 11:49:53,379 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:49:53,467 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:49:53,491 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.823 seconds (JVM running for 7.951)
+2021-12-26 11:49:53,496 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:49:53,524 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@64ae105d
+2021-12-26 11:49:53,526 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:49:53,527 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:49:53,528 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:49:53,723 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:49:53,725 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:49:53,728 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 3 ms
+2021-12-26 11:49:54,965 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+2021-12-26 11:50:59,288 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 145056 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:50:59,295 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:50:59,295 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:51:02,046 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:51:02,072 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:51:02,073 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:51:02,075 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:51:02,595 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:51:02,616 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:51:02,616 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3171 ms
+2021-12-26 11:51:02,777 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@795f8317
+2021-12-26 11:51:03,762 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:51:03,828 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:51:03,882 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.719 seconds (JVM running for 6.668)
+2021-12-26 11:51:03,888 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:51:03,902 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4792f119
+2021-12-26 11:51:03,910 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:51:03,911 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:51:03,912 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:51:09,415 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:51:09,417 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:51:09,419 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 11:51:10,639 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [205] milliseconds.
+2021-12-26 11:51:12,922 DEBUG [com.nikorp.myspring.config.HomeController:41] processFormV3
+2021-12-26 11:56:48,468 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 83036 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 11:56:48,474 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 11:56:48,476 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 11:56:51,195 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:56:51,214 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:56:51,215 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 11:56:51,216 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 11:56:51,741 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 11:56:51,761 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 11:56:51,762 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3110 ms
+2021-12-26 11:56:51,881 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@47ac613b
+2021-12-26 11:56:53,001 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 11:56:53,061 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:56:53,084 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.686 seconds (JVM running for 6.662)
+2021-12-26 11:56:53,090 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 11:56:53,102 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@76f2dad9
+2021-12-26 11:56:53,104 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 11:56:53,105 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 11:56:53,107 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 11:56:58,630 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 11:56:58,634 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 11:56:58,637 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 11:56:59,879 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+2021-12-26 11:57:08,003 DEBUG [com.nikorp.myspring.config.HelloController:37] processFormV3
+2021-12-26 12:18:39,669 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 30592 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:18:39,680 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:18:39,704 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:18:45,678 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:18:45,726 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:18:45,736 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:18:45,738 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:18:46,565 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:18:46,591 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:18:46,593 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 6598 ms
+2021-12-26 12:18:46,821 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@66f28a1f
+2021-12-26 12:18:48,427 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:18:48,537 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:18:48,575 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 10.551 seconds (JVM running for 12.28)
+2021-12-26 12:18:48,594 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:18:48,608 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@aa61e4e
+2021-12-26 12:18:48,610 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:18:48,611 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:18:48,620 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:18:56,428 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:18:56,431 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:18:56,434 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 12:18:57,913 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [286] milliseconds.
+2021-12-26 12:19:04,958 DEBUG [com.nikorp.myspring.config.StudentController:26] Student [firstName=Nikhil, lastName=Rastogi]
+2021-12-26 12:19:27,821 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 112712 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:19:27,838 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:19:27,839 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:19:31,284 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:19:31,307 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:19:31,309 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:19:31,309 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:19:31,998 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:19:32,033 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:19:32,034 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4063 ms
+2021-12-26 12:19:32,204 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@7f608e21
+2021-12-26 12:19:33,311 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:19:33,432 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:19:33,478 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.788 seconds (JVM running for 7.9)
+2021-12-26 12:19:33,484 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:19:33,499 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@5d5c41e5
+2021-12-26 12:19:33,501 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:19:33,501 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:19:33,502 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:19:33,623 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:19:33,625 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:19:33,627 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 12:19:34,954 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+2021-12-26 12:19:40,570 DEBUG [com.nikorp.myspring.config.StudentController:26] Student [firstName=Nikhil, lastName=Rastogi]
+2021-12-26 12:25:21,027 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 84976 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:25:21,036 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:25:21,037 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:25:27,068 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:25:27,117 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:25:27,124 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:25:27,126 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:25:27,961 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:25:27,994 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:25:27,999 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 6746 ms
+2021-12-26 12:25:28,286 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@66f28a1f
+2021-12-26 12:25:29,794 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:25:29,873 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:25:29,934 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 10.67 seconds (JVM running for 12.851)
+2021-12-26 12:25:29,940 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:25:30,005 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@aa61e4e
+2021-12-26 12:25:30,007 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:25:30,008 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:25:30,010 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:25:35,519 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:25:35,521 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:25:35,523 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 12:25:37,048 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [222] milliseconds.
+2021-12-26 12:25:43,408 DEBUG [com.nikorp.myspring.config.StudentController:26] Student [firstName=Nikhil, lastName=Rastogi, country=IND]
+2021-12-26 12:26:26,845 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 180360 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:26:26,852 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:26:26,852 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:26:30,978 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:26:30,996 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:26:30,997 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:26:30,998 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:26:31,757 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:26:31,800 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:26:31,800 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4708 ms
+2021-12-26 12:26:31,982 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@3166f664
+2021-12-26 12:26:33,425 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:26:33,501 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:26:33,574 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 7.96 seconds (JVM running for 9.421)
+2021-12-26 12:26:33,579 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:26:33,594 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@2e7af36e
+2021-12-26 12:26:33,636 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:26:33,636 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:26:33,641 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:26:33,813 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:26:33,816 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:26:33,819 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 12:26:35,185 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [226] milliseconds.
+2021-12-26 12:26:39,633 DEBUG [com.nikorp.myspring.config.StudentController:26] Student [firstName=Nikhil, lastName=Rastogi, country=India]
+2021-12-26 12:30:41,715 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 120380 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:30:41,736 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:30:41,737 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:30:47,300 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:30:47,331 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:30:47,332 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:30:47,332 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:30:48,127 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:30:48,168 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:30:48,169 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 6188 ms
+2021-12-26 12:30:48,401 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@1dd74143
+2021-12-26 12:30:50,718 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:30:50,791 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:30:50,832 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 10.568 seconds (JVM running for 11.998)
+2021-12-26 12:30:50,839 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:30:50,891 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4a058df8
+2021-12-26 12:30:50,903 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:30:50,910 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:30:50,913 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:30:52,195 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:30:52,196 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:30:52,199 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 12:30:53,892 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [254] milliseconds.
+2021-12-26 12:35:38,067 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 173728 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 12:35:38,081 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 12:35:38,082 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 12:35:41,246 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:35:41,272 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:35:41,276 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 12:35:41,277 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:35:41,916 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 12:35:41,943 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 12:35:41,944 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3697 ms
+2021-12-26 12:35:42,146 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@66f28a1f
+2021-12-26 12:35:43,261 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 12:35:43,350 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:35:43,414 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.646 seconds (JVM running for 7.686)
+2021-12-26 12:35:43,444 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 12:35:43,493 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@aa61e4e
+2021-12-26 12:35:43,496 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 12:35:43,497 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 12:35:43,498 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 12:35:48,608 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:35:48,609 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:35:48,611 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 12:35:49,945 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [194] milliseconds.
+2021-12-26 12:36:06,709 DEBUG [com.nikorp.myspring.config.StudentController:26] Student [firstName=Nikhil, lastName=Rastogi, country=IN]
+2021-12-26 13:06:04,781 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 168020 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:06:04,795 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:06:04,796 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:06:07,318 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:06:07,339 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:06:07,343 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:06:07,344 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:06:07,834 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:06:07,855 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:06:07,856 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2924 ms
+2021-12-26 13:06:08,000 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@119b0892
+2021-12-26 13:06:08,965 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:06:09,039 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:06:09,062 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.368 seconds (JVM running for 6.321)
+2021-12-26 13:06:09,073 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:06:09,089 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4877919f
+2021-12-26 13:06:09,090 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:06:09,091 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:06:09,092 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:06:14,156 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:06:14,157 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:06:14,159 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 13:06:15,702 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [235] milliseconds.
+2021-12-26 13:07:59,761 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 72856 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:07:59,767 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:07:59,768 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:08:03,420 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:08:03,445 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:08:03,449 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:08:03,450 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:08:04,320 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:08:04,342 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:08:04,343 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4451 ms
+2021-12-26 13:08:04,464 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@60d6fdd4
+2021-12-26 13:08:05,398 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:08:05,474 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:08:05,499 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 6.817 seconds (JVM running for 7.846)
+2021-12-26 13:08:05,505 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:08:05,517 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@740fefc6
+2021-12-26 13:08:05,519 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:08:05,519 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:08:05,521 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:08:09,763 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:08:09,765 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:08:09,766 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 13:08:10,934 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+2021-12-26 13:13:28,220 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 129448 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:13:28,226 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:13:28,227 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:13:30,944 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:13:30,969 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:13:30,973 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:13:30,974 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:13:31,508 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:13:31,530 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:13:31,531 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3177 ms
+2021-12-26 13:13:31,685 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@470d183
+2021-12-26 13:13:32,660 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:13:32,712 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:13:32,734 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.575 seconds (JVM running for 6.53)
+2021-12-26 13:13:32,745 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:13:32,759 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4cc01c7f
+2021-12-26 13:13:32,763 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:13:32,765 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:13:32,767 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:13:37,210 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:13:37,211 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:13:37,214 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 2 ms
+2021-12-26 13:13:38,522 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+2021-12-26 13:14:20,728 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 62388 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:14:20,736 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:14:20,737 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:14:23,343 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:14:23,364 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:14:23,365 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:14:23,366 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:14:23,842 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:14:23,862 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:14:23,863 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3023 ms
+2021-12-26 13:14:23,989 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@157ec23b
+2021-12-26 13:14:25,003 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:14:25,065 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:14:25,091 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.423 seconds (JVM running for 6.392)
+2021-12-26 13:14:25,097 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:14:25,116 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@64502326
+2021-12-26 13:14:25,118 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:14:25,118 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:14:25,119 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:14:29,848 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:14:29,850 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:14:29,851 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 13:14:31,430 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [251] milliseconds.
+2021-12-26 13:15:49,881 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 126776 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:15:49,888 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:15:49,889 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:15:52,533 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:15:52,553 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:15:52,556 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:15:52,557 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:15:53,071 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:15:53,090 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:15:53,091 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3076 ms
+2021-12-26 13:15:53,218 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@3ddeaa5f
+2021-12-26 13:15:54,471 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:15:54,622 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:15:54,658 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.873 seconds (JVM running for 6.79)
+2021-12-26 13:15:54,667 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:15:54,685 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@794f11cd
+2021-12-26 13:15:54,688 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:15:54,688 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:15:54,689 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:15:56,305 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:15:56,307 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:15:56,309 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 13:15:57,771 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [255] milliseconds.
+2021-12-26 13:21:11,134 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 14488 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 13:21:11,141 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 13:21:11,142 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 13:21:13,883 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 13:21:13,908 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:21:13,909 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 13:21:13,910 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 13:21:14,453 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 13:21:14,475 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 13:21:14,476 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3192 ms
+2021-12-26 13:21:14,690 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@542f6803
+2021-12-26 13:21:15,567 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 13:21:15,648 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 13:21:15,670 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 5.586 seconds (JVM running for 6.546)
+2021-12-26 13:21:15,684 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 13:21:15,695 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@4dfdfe7d
+2021-12-26 13:21:15,699 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 13:21:15,700 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 13:21:15,702 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 13:21:18,744 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 13:21:18,745 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 13:21:18,747 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 13:21:20,240 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+2021-12-26 13:21:26,386 DEBUG [com.nikorp.myspring.config.StudentController:35] Student [firstName=Nikhil, lastName=Rastogi, country=BR]
+2021-12-26 14:47:08,169 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 117060 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 14:47:08,174 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:47:08,175 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 14:47:10,134 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 14:47:10,151 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:47:10,154 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 14:47:10,154 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 14:47:10,516 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 14:47:10,532 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 14:47:10,533 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2279 ms
+2021-12-26 14:47:10,686 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@48e8c32a
+2021-12-26 14:47:11,437 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:47:11,528 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 14:47:11,545 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 4.149 seconds (JVM running for 4.82)
+2021-12-26 14:47:11,549 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 14:47:11,559 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@1f71194d
+2021-12-26 14:47:11,561 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 14:47:11,561 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 14:47:11,562 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 14:47:16,328 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 14:47:16,329 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 14:47:16,331 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 14:47:16,390 DEBUG [com.nikorp.myspring.config.StudentController:40] Student [firstName=null, lastName=null, country=null, favLang=null]
+2021-12-26 14:47:17,256 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
+2021-12-26 14:47:26,544 ERROR [org.springframework.web.servlet.tags.RequestContextAwareTag:86] Attribute 'items' must be an array, a Collection or a Map
+java.lang.IllegalArgumentException: Attribute 'items' must be an array, a Collection or a Map
+	at org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag.writeTagContent(AbstractMultiCheckedElementTag.java:243)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fradiobuttons_005f0(student_002dform_jsp.java:396)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fform_005f0(student_002dform_jsp.java:206)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspService(student_002dform_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-26 14:47:26,547 ERROR [org.apache.juli.logging.DirectJDKLog:175] Servlet.service() for servlet [jsp] threw exception
+java.lang.IllegalArgumentException: Attribute 'items' must be an array, a Collection or a Map
+	at org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag.writeTagContent(AbstractMultiCheckedElementTag.java:243)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fradiobuttons_005f0(student_002dform_jsp.java:396)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fform_005f0(student_002dform_jsp.java:206)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspService(student_002dform_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-26 14:47:26,550 ERROR [org.apache.juli.logging.DirectJDKLog:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [java.lang.IllegalArgumentException: Attribute 'items' must be an array, a Collection or a Map] with root cause
+java.lang.IllegalArgumentException: Attribute 'items' must be an array, a Collection or a Map
+	at org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag.writeTagContent(AbstractMultiCheckedElementTag.java:243)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fradiobuttons_005f0(student_002dform_jsp.java:396)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspx_meth_form_005fform_005f0(student_002dform_jsp.java:206)
+	at org.apache.jsp.WEB_002dINF.jsp.student_002dform_jsp._jspService(student_002dform_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-26 14:47:58,615 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 145232 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 14:47:58,628 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:47:58,629 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 14:48:00,587 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 14:48:00,602 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:48:00,604 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 14:48:00,605 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 14:48:00,946 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 14:48:00,962 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 14:48:00,963 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2235 ms
+2021-12-26 14:48:01,117 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@53a84ff4
+2021-12-26 14:48:01,848 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:48:01,892 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 14:48:01,922 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 4.061 seconds (JVM running for 4.763)
+2021-12-26 14:48:01,926 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 14:48:01,935 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@c1e14f
+2021-12-26 14:48:01,936 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 14:48:01,937 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 14:48:01,938 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 14:48:05,893 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 14:48:05,894 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 14:48:05,895 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 14:48:06,821 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+2021-12-26 14:48:12,874 DEBUG [com.nikorp.myspring.config.StudentController:40] Student [firstName=Nikhil, lastName=Rastogi, country=IN, favLang=PH]
+2021-12-26 14:48:57,003 INFO  [org.springframework.boot.StartupInfoLogger:55] Starting MySpringApplication using Java 11.0.12 on BLR1-LHP-N60511 with PID 42640 (D:\NEW_ECLIPSE_WS\myspringmvc3\target\classes started by Nikhil.Rastogi in D:\NEW_ECLIPSE_WS\myspringmvc3)
+2021-12-26 14:48:57,006 DEBUG [org.springframework.boot.StartupInfoLogger:56] Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:48:57,007 INFO  [org.springframework.boot.SpringApplication:635] No active profile set, falling back to default profiles: default
+2021-12-26 14:48:59,348 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-26 14:48:59,362 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:48:59,365 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting service [Tomcat]
+2021-12-26 14:48:59,366 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 14:48:59,791 INFO  [org.apache.juli.logging.DirectJDKLog:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-26 14:48:59,809 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-12-26 14:48:59,810 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2705 ms
+2021-12-26 14:48:59,971 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@1ee27d73
+2021-12-26 14:49:00,884 INFO  [org.apache.juli.logging.DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-26 14:49:00,941 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 14:49:00,958 INFO  [org.springframework.boot.StartupInfoLogger:61] Started MySpringApplication in 4.786 seconds (JVM running for 5.567)
+2021-12-26 14:49:00,970 INFO  [com.nikorp.myspring.MySpringApplication:23] shit
+2021-12-26 14:49:00,985 DEBUG [com.nikorp.myspring.ioc.SwimCoach:18] SWIMCOACH Constructor() fortuneService=com.nikorp.myspring.di.SadFortuneService@498a612d
+2021-12-26 14:49:00,987 DEBUG [com.nikorp.myspring.MySpringApplication:52] swimCoachCoach.getDailyWorkout()=SWIM KARO SAALE
+2021-12-26 14:49:00,987 DEBUG [com.nikorp.myspring.MySpringApplication:53] swimCoachCoach.getDailyFortune(1)=Today is your fucky day!
+2021-12-26 14:49:00,990 DEBUG [com.nikorp.myspring.ioc.SwimCoach:33] Killing SwimCoach!
+2021-12-26 14:49:01,740 INFO  [org.apache.juli.logging.DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 14:49:01,741 INFO  [org.springframework.web.servlet.FrameworkServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-26 14:49:01,743 INFO  [org.springframework.web.servlet.FrameworkServlet:547] Completed initialization in 1 ms
+2021-12-26 14:49:02,618 WARN  [org.apache.juli.logging.DirectJDKLog:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [165] milliseconds.
+2021-12-26 14:49:07,242 DEBUG [com.nikorp.myspring.config.StudentController:40] Student [firstName=Nikhil, lastName=Rastogi, country=IN, favLang=PH]
