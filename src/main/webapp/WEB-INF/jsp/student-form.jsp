@@ -14,7 +14,9 @@
 			<form:options items="${theCountryOptions}" />
 		</form:select>
 		<br><br>
-		<form:radiobuttons path="favLang" items="${theLanguageOptions}" />
+			<form:radiobuttons path="favLang" items="${theLanguageOptions}" />
+		<br><br>
+			<form:checkboxes path="opSystems" items="${theOSOptions}" />
 		<br><br>
 		<input type="submit" value="Submit" />
 		</form:form>

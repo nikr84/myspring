@@ -1,11 +1,14 @@
 package com.nikorp.myspring.model;
 
+import java.util.Arrays;
+
 public class Student {
 
 	private String firstName;
 	private String lastName;
 	private String country;
 	private String favLang;
+	private String[] opSystems;
 	
 	public String getFirstName() {
 		return firstName;
@@ -31,10 +34,16 @@ public class Student {
 	public void setFavLang(String favLang) {
 		this.favLang = favLang;
 	}
+	public String[] getOpSystems() {
+		return opSystems;
+	}
+	public void setOpSystems(String[] opSystems) {
+		this.opSystems = opSystems;
+	}
 	@Override
 	public String toString() {
 		return "Student [firstName=" + firstName + ", lastName=" + lastName + ", country=" + country + ", favLang="
-				+ favLang + "]";
+				+ favLang + ", opSystems=" + Arrays.toString(opSystems) + "]";
 	}
 
 }
