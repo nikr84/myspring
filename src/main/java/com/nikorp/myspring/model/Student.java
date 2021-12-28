@@ -2,9 +2,15 @@ package com.nikorp.myspring.model;
 
 import java.util.Arrays;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Student {
 
 	private String firstName;
+	
+	@NotNull
+	@Size(min=1, message = "is required")
 	private String lastName;
 	private String country;
 	private String favLang;
