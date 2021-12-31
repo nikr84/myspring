@@ -7,6 +7,12 @@
 	<body>
 		The student is confirmed: <b>${studentObject.firstName} ${studentObject.lastName}</b>
 		<br><br>
+		Attendance: ${studentObject.attendance}
+		<br><br>
+		PIN: ${studentObject.postalCode}
+		<br><br>
+		Course Code: ${studentObject.courseCode}
+		<br><br>
 		Country: <b>${studentObject.country}</b>
 		<br><br>
 		Favorite Language: <b>${studentObject.favLang}</b>

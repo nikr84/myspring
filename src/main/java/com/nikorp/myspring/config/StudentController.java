@@ -7,10 +7,13 @@ import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -34,6 +37,12 @@ public class StudentController {
 	@Value("#{${osOptions}}")
 	private Map<String, String> osOptions;
 	
+	@InitBinder
+	public void initBinder(WebDataBinder binder) {
+		StringTrimmerEditor editor = new StringTrimmerEditor(true);
+		binder.registerCustomEditor(String.class, editor);
+	}
+	
 	@RequestMapping("/showForm")
 	public String showForm(Model theModel) {
 		theModel.addAttribute("studentObject", new Student());
@@ -50,6 +59,7 @@ public class StudentController {
 	@RequestMapping("/processForm")
 	public String processForm(Model theModel, @Valid @ModelAttribute("studentObject") Student stu, BindingResult bindingResult) {
 		logger.debug(stu.toString());
+		logger.debug("Binding result: " + bindingResult);
 		if (bindingResult.hasErrors()) {
 			fillShowForm(theModel);
 			return "student-form";
@@ -57,5 +67,5 @@ public class StudentController {
 		
 		return "student-confirmation";
 	}
-	
+
 }

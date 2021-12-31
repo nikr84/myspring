@@ -12,6 +12,15 @@
 		Last Name (*): <form:input path="lastName" />
 		<form:errors path="lastName" cssClass="error" />
 		<br><br>
+		Attendance (*): <form:input path="attendance" />
+		<form:errors path="attendance" cssClass="error" />
+		<br><br>
+		PIN (*): <form:input path="postalCode" />
+		<form:errors path="postalCode" cssClass="error" />
+		<br><br>
+		Course Code: <form:input path="courseCode" />
+		<form:errors path="courseCode" cssClass="error" />
+		<br><br>
 		<form:select path="country">
 			<form:options items="${theCountryOptions}" />
 		</form:select>
