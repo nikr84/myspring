@@ -46,7 +46,7 @@ public class MySpringApplication {
 			if (session.createQuery("from Employee e where e.firstName='Nikhil'").getResultStream().findAny().isPresent()) {
 				logger.debug("Nikhil as First Name already exists !");
 			} else {
-				Employee employee = new Employee("Nikhil", "Rastogi", "rastogi.nik@gmail.com");
+				var employee = new Employee("Nikhil", "Rastogi", "rastogi.nik@gmail.com");
 				session.save(employee);
 				
 				session.getTransaction().commit();
@@ -56,7 +56,7 @@ public class MySpringApplication {
 				session = sessionFactory.getCurrentSession();
 				logger.debug("Employee1=" + employee);
 				session.beginTransaction();
-				Employee e2 = session.get(Employee.class, employee.getId());
+				var e2 = session.get(Employee.class, employee.getId());
 				e2.setLastName("Kapoor");
 				logger.debug("Employee2=" + e2);
 				session.getTransaction().commit();
@@ -100,17 +100,19 @@ public class MySpringApplication {
 //			logger.debug("trackCoachCoach.getDailyFortune(3)="+trackCoachCoach.getDailyFortune());
 			
 			context2 = new AnnotationConfigApplicationContext(NewSportsConfig.class);
-			Coach swimCoachCoach = context2.getBean("swimCoach", Coach.class);
+			var swimCoachCoach = context2.getBean("swimCoach", Coach.class);
 			logger.debug("swimCoachCoach.getDailyWorkout()="+swimCoachCoach.getDailyWorkout());
 			logger.debug("swimCoachCoach.getDailyFortune(1)="+swimCoachCoach.getDailyFortune());
 			
-			AccountDAO theADAO = context2.getBean("accountDAO", AccountDAO.class);
+			var theADAO = context2.getBean("accountDAO", AccountDAO.class);
 			theADAO.addAccount();
 			theADAO.getX();
 			
-			MembershipDAO theMDAO = context2.getBean("membershipDAO", MembershipDAO.class);
+			var theMDAO = context2.getBean("membershipDAO", MembershipDAO.class);
 			theMDAO.addAccount(5);
 			theMDAO.getFff();
+			var shot = theMDAO.populateMembers(3);
+			logger.debug("MAIN theMDAO.populateMembers()===>>" + shot);
 		} finally {
 			if (context != null)
 				context.close();

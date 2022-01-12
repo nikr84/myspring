@@ -1,5 +1,8 @@
 package com.nikorp.myspring.aop;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -23,6 +26,14 @@ public class MembershipDAO {
 	public void setFff(String fff) {
 		logger.debug("AOP: setFff()");
 		this.fff = fff;
+	}
+	
+	public List<String> populateMembers(int size) {
+		var list = new ArrayList<String>();
+		for (int i = 0; i < size; i++) {
+			list.add("member no." + i);
+		}
+		return list;
 	}
 	
 }

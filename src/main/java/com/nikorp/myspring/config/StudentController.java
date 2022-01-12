@@ -39,7 +39,7 @@ public class StudentController {
 	
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
-		StringTrimmerEditor editor = new StringTrimmerEditor(true);
+		var editor = new StringTrimmerEditor(true);
 		binder.registerCustomEditor(String.class, editor);
 	}
 	

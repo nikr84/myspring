@@ -27,7 +27,7 @@ public class HelloController {
 	
 	@RequestMapping("/processFormV2")
 	public String processStudentFormV2(HttpServletRequest request, Model model) {
-		String stuName = request.getParameter("studentName");
+		var stuName = request.getParameter("studentName");
 		model.addAttribute("message", "Yo! " + stuName.toUpperCase());
 		return "helloworld";
 	}
