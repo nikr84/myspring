@@ -23,6 +23,9 @@ public class MySpringApplication {
 	private final static Logger logger = LoggerFactory.getLogger(MySpringApplication.class);
 	private Session session;
 	
+	private ClassPathXmlApplicationContext context = null;
+	private AnnotationConfigApplicationContext context2 = null;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(MySpringApplication.class, args);
 		
@@ -81,8 +84,6 @@ public class MySpringApplication {
 	}
 	
 	private void run() {
-		ClassPathXmlApplicationContext context = null;
-		AnnotationConfigApplicationContext context2 = null;
 		try {
 //			context2 = new AnnotationConfigApplicationContext(OldSportsConfig.class);
 //			context = new ClassPathXmlApplicationContext("applicationContext.xml");

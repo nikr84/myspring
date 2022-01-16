@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.ResourceBundleMessageSource;
 
 import com.nikorp.myspring.di.FortuneService;
@@ -15,6 +16,7 @@ import com.nikorp.myspring.ioc.SwimCoach;
 @Configuration
 @EnableAspectJAutoProxy
 @ComponentScan("com.nikorp.myspring")
+@PropertySource("classpath:/application.properties")
 public class NewSportsConfig {
 
 	@Bean

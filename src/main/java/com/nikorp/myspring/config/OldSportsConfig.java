@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan({"com.nikorp.ioc", "com.nikorp.di"})
+//@ComponentScan({"com.nikorp.ioc", "com.nikorp.di"})
 @PropertySource("classpath:/sports.properties")
 public class OldSportsConfig {
 
